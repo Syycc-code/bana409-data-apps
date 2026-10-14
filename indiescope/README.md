@@ -1,5 +1,7 @@
 # IndieScope: Indie Game Competitor Discovery
 
+**Live app:** https://bana409-indiescope-syycc.streamlit.app/
+
 For an indie game publishing manager, this dashboard turns a large Steam catalogue into a list of comparable games for a weekly pricing and positioning review. **IndieScope is a working team name; replace it before submission.**
 
 ## 1. Dataset and provenance
@@ -107,7 +109,7 @@ Open `eda.ipynb` for the executed analysis. Its scope is the compact cohort and 
 
 Create your own public GitHub repository and upload these project files. Exclude `.venv`, `.git`, caches and the original `games.csv`. Include `app.py`, `requirements.txt`, `README.md`, `eda.ipynb`, `prepare_data.py` and the `data/` folder. In Streamlit Community Cloud choose your repo, branch `main`, entry point `app.py` and Python **3.14** under Advanced settings, following the course instructions.
 
-Verify the public app opens; change filters, test an empty selection and download a shortlist. Submit the app URL and GitHub repository URL individually on Canvas. Team discussion does not replace the individual's app/repo/README. **This local project does not claim a public deployment or Canvas submission.**
+Verify the public app opens; change filters, test an empty selection and download a shortlist. Submit the app URL and GitHub repository URL individually on Canvas. Team discussion does not replace the individual's app/repo/README. **The app is deployed under the owner's Streamlit Cloud account; Canvas submission remains a separate step.**
 
 
 ### Deployment package
