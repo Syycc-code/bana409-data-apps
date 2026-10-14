@@ -38,3 +38,6 @@ The housing lab is an in-class activity with nothing to submit. The housing data
 ## Assignment 4 — IndieScope
 
 The individual Steam competitor discovery dashboard is in [`indiescope/`](indiescope/). Its [design README](indiescope/README.md) explains the decision-maker, display choices, exclusions and refresh proposal. Deploy `indiescope/app.py` with Python 3.14. Original city and housing apps remain available.
+
+
+IndieScope live app: https://bana409-indiescope-syycc.streamlit.app/
