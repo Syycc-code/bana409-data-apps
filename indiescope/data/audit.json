@@ -1,0 +1,113 @@
+{
+  "source": "https://www.kaggle.com/datasets/fronkongames/steam-games-dataset",
+  "source_file": "games.csv",
+  "source_bytes": 401140503,
+  "analysis_cutoff": "2026-10-12",
+  "snapshot_collection_date": "not supplied",
+  "header_repaired": true,
+  "original_column_count": 39,
+  "corrected_column_count": 40,
+  "counts": {
+    "raw_rows": 125855,
+    "future_dates": 1,
+    "zero_price": 26661,
+    "zero_reviews": 42899,
+    "not_indie": 42971,
+    "exported_reviews_50plus": 9520,
+    "before_2020": 21799,
+    "outside_paid_price_range": 9506,
+    "name_exclusion_heuristic": 174,
+    "after_cutoff": 1
+  },
+  "missing_raw": {
+    "About the game": 8462,
+    "Reviews": 113674,
+    "Website": 75335,
+    "Support url": 70493,
+    "Support email": 22610,
+    "Metacritic url": 121597,
+    "Score rank": 125815,
+    "Notes": 102544,
+    "Developers": 8442,
+    "Publishers": 8843,
+    "Categories": 8966,
+    "Genres": 8423,
+    "Tags": 42502,
+    "Movies": 125855,
+    "Screenshots": 6027,
+    "Header image": 81,
+    "Name": 1
+  },
+  "top_genres_raw": [
+    [
+      "Indie",
+      82884
+    ],
+    [
+      "Casual",
+      51677
+    ],
+    [
+      "Action",
+      47344
+    ],
+    [
+      "Adventure",
+      46293
+    ],
+    [
+      "Simulation",
+      24912
+    ],
+    [
+      "Strategy",
+      23058
+    ],
+    [
+      "RPG",
+      21577
+    ],
+    [
+      "Free To Play",
+      12605
+    ],
+    [
+      "Early Access",
+      11572
+    ],
+    [
+      "Sports",
+      4971
+    ],
+    [
+      "Racing",
+      4169
+    ],
+    [
+      "Massively Multiplayer",
+      2596
+    ]
+  ],
+  "raw_price_bins": {
+    "free": 26661,
+    "0–10": 86900,
+    "10–20": 9719,
+    "20–40": 1793,
+    ">40": 782
+  },
+  "raw_review_bins": {
+    "0": 42899,
+    "50–499": 20117,
+    "1–49": 52332,
+    "500+": 10507
+  },
+  "raw_release_date_range": [
+    "1997-06-30",
+    "2026-12-01"
+  ],
+  "export_rows": 51404,
+  "export_bytes": 14496896,
+  "currency": "not verified; prices displayed in source units",
+  "scope": "Indie genre; 2020 onward through cutoff; 0 < listed price <= 40; name exclusions",
+  "team_name": "IndieScope (working team name; replace with actual team)"
+}
